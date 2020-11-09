@@ -1,0 +1,42 @@
+   <script>
+
+        function pulaLinha() {
+            document.write("<br>");
+        }
+        
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+		function calculaPontos(vitorias, empates, derrotas){
+		var pontos = ((vitorias*3)+empates+(derrotas-derrotas-derrotas));		
+		return pontos;
+		}
+        
+        var vitoriasLvp = prompt("Quantos jogos o Liverpool venceu?");
+        var empatesLvp = prompt("Quantos jogos o Liverpool empatou?");
+        var derrotasLvp = prompt("Quantos jogos o Liverpool perdeu?");
+        empatesLvp = parseInt(empatesLvp);
+        var pontosLvp = calculaPontos(vitoriasLvp,empatesLvp,derrotasLvp);
+        mostra("O Liverpool tem " + pontosLvp + " pontos!");
+
+        //var vitoriasManUtd = prompt("Quantos Jogos o Manchester venceu?");
+        var vitoriasManUtd = 11;//prompt("Quantos Jogos o Manchester venceu?");
+        var empatesManUtd = prompt("Quantos Jogos o Manchester empatou?");
+		empatesManUtd = parseInt(empatesManUtd);
+        var derrotasManUtd = prompt("Quantos Jogos o Manchester perdeu?");
+		var pontosManUtd = calculaPontos(vitoriasManUtd,empatesManUtd,derrotasManUtd);
+		
+		mostra("O Manchster tem "+pontosManUtd+" pontos");
+        var pontosLiverpool = pontosLvp;
+        if (pontosLiverpool > pontosManUtd) {
+            mostra("O Liverpool está indo MELHOR que o ManUtd! ");
+        }
+        if (pontosLiverpool < pontosManUtd) {
+            mostra("O Liverpool está indo PIOR que o ManUtd.");
+        }
+        if (pontosLiverpool == pontosManUtd) {
+            mostra("O Liverpool está EMPATADO com o ManUtd.");
+        }
+
+</script>

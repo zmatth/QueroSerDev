@@ -1,0 +1,26 @@
+Metodo construtor:
+Responsavel por criar obj a partir da classe
+
+Metodo destrutor:
+Responsavel por destruir o obj criado a partir da classe
+
+sobrecarga de metodo:
+é definir dois ou mais metodos com o mesmo nome com parametros diferentes para realizar operacoes diferentes
+
+
+atributos/metodos estaticos são acessados atraves da classe, sempre, e sempre pertecem a ela.
+
+atributos/metados de instancia pertencem ao obj
+
+se uma classe tem um atributo/metodo estatico, todos os objetos vão ter o mesmo "valor" daquele atributo/metodo
+(pensa no exemplo dos olhos - pessoa)
+
+e um metodo estatico só consegue ter acesso aos atributos da classe que são estaticos
+
+estado do obj:
+o estado do conjunto dos valores do obj
+em um determinado momento
+
+
+
+

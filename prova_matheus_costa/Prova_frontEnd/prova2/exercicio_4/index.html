@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Medicamento Controlado</title>
+</head>
+<body>
+    <form class="form-control container">
+        <div class="row">
+            <div class="col-lg-6 cxs">
+            <label for="Crm" class="form-control">Crm do médico</label>
+            <input type="text" class="form-control crm" required>
+            </div>
+
+            <div class="col-lg-6 cxs">
+            <label for="Crm" class="form-control">Nome do médico</label>
+            <input type="text" class="form-control nomeMedico">
+            <label for="verificaNomeMedico" class="form-control verificaNomeMedico" style="color: red; display: none;">Verifique o nome</label>
+            </div>
+            
+            <div class="col-lg-6 cxs">
+            <label for="Crm" class="form-control">Data da receita</label>
+            <input type="date" class="form-control" required>
+            </div>
+
+            <div class="col-lg-6 cxs">
+            <label for="Crm" class="form-control">Qtd Caixas</label>
+            <input type="text" class=" qtdCaixas form-control" required placeholder="ex: 01 - 02 - 03...">
+            </div>
+
+            <div class="col-lg-6 cxs">
+            <label for="Crm" class="form-control">Paciente</label>
+            <input type="text" class="form-control" required>
+            </div>
+
+            <div class="col-lg-6 cxs">
+            <label for="cpfPaciente" class="form-control">Cpf Paciente</label>
+            <input type="text" class="form-control cpfPaciente">
+            <label for="verificaCpfPaciente" class="form-control verificaCpfPaciente" style="color: red; display: none;">Cpf inválido!</label>
+            </div>
+
+            <div class="col-lg-6 cxs">
+            <label for="Crm" class="form-control">Data de nascimento</label>
+            <input type="date" class="form-control" required>
+            </div>
+            
+            <div class="col-lg-6 cxs">
+                <label for="Crm" class="form-control">Sexo</label>
+                <select name="Genero" id="gen" class="form-control genero" required>
+                    <option value="">--escolha um--</option>
+                    <option value="jonas">Masculino</option>
+                    <option value="leo">Feminino</option>
+                    <option value="leo">Prefiro não informar</option>
+                </select>
+            </div>
+
+            <div class="col-lg-6 cxs">
+                <label for="envioReceita" class="form-control">Tipo de envio</label>
+                <select name="envioReceita" class="form-control envioReceita" required>
+                <option value="">--escolha um--</option>
+                <option value="anex">Anexar Arquivo</option>
+                <option value="wpp">WhatsApp</option>
+                <option value="email">E-mail</option>
+            </select>
+            </div>
+        </div>
+        <button type="submit">Concluir</button>
+    </form>
+
+<script src="Js/app.js"></script>
+</body>
+</html>

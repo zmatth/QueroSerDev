@@ -1,0 +1,41 @@
+<script>
+
+function pulaLinha() {
+  document.write("<br>");
+}
+
+function mostra(frase) {
+  document.write(frase);
+  pulaLinha();
+}
+
+function sorteia(limite) {
+  return Math.round(Math.random() * limite);
+}
+
+var numeroPensado = sorteia(1000);
+console.log("numero="+numeroPensado);
+
+var tentativa = 1;
+while (chute != numeroPensado) {
+  var chute = prompt("Já pensei num número de 0 a 1000. Qual você acha que é? (Tentativa:"+tentativa+")");
+  if (isNaN(chute)) {
+    alert("Vc digitou um dado que nao eh numero.");
+  } else {
+    if (chute > numeroPensado) {
+      alert("VC ERROU! Seu chute foi MAIOR que o numero pensado.");
+    } else if (chute < numeroPensado) {
+      alert("VC ERROU! Seu chute foi MENOR que o numero pensado.");
+    } else {
+      alert("VC ACERTOU!");
+	  mostra("Voce tentou "+ tentativa + " vezes.");
+	  mostra("numero pensado foi "+numeroPensado);
+	  //break;
+    }
+	tentativa++;
+  } 
+}
+
+mostra("GAME OVER");
+
+</script>

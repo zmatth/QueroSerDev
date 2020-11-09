@@ -1,0 +1,27 @@
+textarea{
+    resize: vertical;
+}
+/* definir se a caixa de texto pode ser redimensionada pelo user ou não
+caso não, definir como none;
+*/
+
+/*pseudo seletor*/
+h3:hover{
+    background-color: orchid;
+    color: white;
+}
+/*hover é a ação quando o user coloca o mouse sob o elemento*/
+button:hover{
+    background-color: rgb(10, 185, 197);
+    color: white;
+    cursor: pointer;
+}
+/*input:focus  quando o user clicar no elemento, dando FOCO*/
+input:focus{
+background-color: lightgreen;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+
+}

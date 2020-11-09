@@ -1,0 +1,31 @@
+abstração: processo de isolar
+as caracteristicas de um obj
+
+reuso: quanto mais cd repetido, mais
+dificil é a manutenção
+
+encapsulamento: proteger os dados por
+meio de operações/Ter acesso ao dado
+somente por meio das operações
+
+objetos tem comportamento>metodo
+	    estados>atirbutos
+
+classes: que classifica o tipo,
+serve de modelo e identifica os serviços providos por seus objetos
+
+metodo é uma sub-rotina disponibilizada
+pela classe, servindo para identificar
+serviços e ações que a classe oferece.
+que são responsaveis por realizar determinado comportamento.
+
+assinatura do metodo:
+é o nome e sua lista de parametros
+
+metodos tem que ter um retorno
+boolean, null, ou de outra classe tbm
+e esse retorno não faz parte da assinatura do metodo.
+
+
+
+

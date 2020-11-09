@@ -1,0 +1,38 @@
+textarea {
+    resize: none;
+}
+
+/*pseudos seletores*/
+h3:hover {
+    background-color: red;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(38, 0, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+button {
+    background-color: #053f49;
+    color: #fff;
+    border:none;
+    /*modifica o cursor do mouse*/
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #30a3b8;
+}
+
+input:focus {
+    background-color: #4cfb72;
+}

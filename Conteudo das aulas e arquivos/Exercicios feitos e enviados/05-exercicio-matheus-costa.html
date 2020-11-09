@@ -1,0 +1,47 @@
+<script>
+        function pulaLinha() {
+            document.write("<br>");
+        }
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+        function calculaIMC(peso, altura) {
+            var imc = peso / (altura * altura);
+            return imc;
+        }
+		
+		function calculaDistanciaObesidade(imc) {
+		const LIMITE_OBESIDADE = 35;
+		var distObes = LIMITE_OBESIDADE - imc;
+		return distObes;
+		}
+        var limiteMagreza = 18.5;
+        var peso = 66;
+        var altura = 1.66;
+        //var imc = calculaIMC(peso, altura);
+		var distObesidade = (Math.round(calculaDistanciaObesidade(calculaIMC(peso,altura))));
+        mostra("meu IMC é "+ calculaIMC(peso,altura));
+        mostra("está "+(calculaIMC(peso,altura) - limiteMagreza)+" pontos do limite da magreza.");
+        mostra("está " + distObesidade +" pontos de chegar na obesidade.");
+		
+		
+		
+		/* eu vou fazer isso funcionar!!!!!!!!!!!!!
+		function respostaIMC(resposta)
+		{
+				var resposta = calculaIMC();
+			    mostra(resposta);
+				return resposta;
+		}		
+		mostra(respostaIMC(imc));
+		
+		*/
+		
+		/*
+		var imc = calculaIMC(altura, peso);
+        mostra("Meu imc é " + imc);		
+		*/		
+		
+		//function respostaIMC
+    </script>

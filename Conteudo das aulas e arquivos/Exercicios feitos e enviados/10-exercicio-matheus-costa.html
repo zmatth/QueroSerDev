@@ -1,0 +1,33 @@
+<script>
+        function pulaLinha() {
+            document.write("<br>");
+        }
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+        var anoDeCopa = 1930;
+        var anoDadoUser = prompt("Digite um ano: ");
+        //while (anoDeCopa <= 2014) {   
+        //while (anoDeCopa <= 2100) {  (1)
+        //while (anoDeCopa <= 100000) { (2)
+		
+		
+        //while (anoDeCopa <= 2100) {
+		
+		while (isNaN(anoDadoUser)){ // enquanto(éumnumero?(variavel) dai ele entra no loop embaixo
+		var anoDadoUser = parseInt(prompt("Digite um ano em numeros por favor"))	;
+		}
+		
+        while (anoDeCopa <= anoDadoUser) {
+            mostra(anoDeCopa + " tem copa!");
+            anoDeCopa = anoDeCopa + 4;
+        }
+        mostra("Ufa! Esses foram os anos de copa até: " + anoDadoUser);
+		
+		var copasPassadas = prompt("E de tras pra frente ate 100? digite 100");
+		while(anoDeCopa > copasPassadas){
+		mostra(anoDeCopa + "teve copa");
+		anoDeCopa = anoDeCopa - 4;
+		}
+</script>

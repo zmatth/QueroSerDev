@@ -1,0 +1,25 @@
+<script>
+
+function alturaEscada(altura){
+var array = [];
+var velha = "#";
+for(i=1; i<=altura;i++){
+	if(i>altura){
+	array[0] = "#"
+	break;
+	}
+	else{
+	array.push((velha.repeat(i)));
+	document.write(array);
+	document.write("<br>");
+	}
+}
+
+
+return array;
+}
+
+
+var altura = alturaEscada(5);
+// lado da escada ao contrario
+</script>

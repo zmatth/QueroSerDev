@@ -1,0 +1,36 @@
+<script>
+
+
+
+//ciclo 1 = primavera = dobra o tamanho
+//ciclo 2 = verao = cresce 1 metro
+
+function alturaArvoreUtopica(alturaInicial, ciclos){
+var alturaFinal = alturaInicial;
+if(ciclos == 0){
+	alturaFinal = alturaInicial;
+	return alturaFinal;
+}
+var diminuiCiclo = ciclos;
+for (contaCiclos = 0; contaCiclos<ciclos; contaCiclos++){
+		if(diminuiCiclo%2 == 0){
+			alturaFinal++;
+			diminuiCiclo--;
+			}
+		else{
+			alturaFinal = alturaFinal+alturaFinal;
+			diminuiCiclo--;
+			}
+		}
+	return alturaFinal;
+}
+
+
+
+
+var arvore = alturaArvoreUtopica(2,5);
+document.write(arvore);
+
+//ok
+
+</script>

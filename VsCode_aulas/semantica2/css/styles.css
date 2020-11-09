@@ -1,0 +1,40 @@
+span{
+    color: red;
+}
+div span{
+    color: orange;
+}
+header{
+    height: 100px;
+    width: 300px;
+    background-color:lightgoldenrodyellow;
+    overflow: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    /* padding: 10px 10px 10px 10px; rudizido*/
+    /* top, right, bottom, left */
+    border-style: solid;
+    border-width: 10px;
+    border-color: lightgreen;
+    /* border: solid 10px lightgreen; reduzido */
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    /* margin: 10px 10px 10px 10px; reduzido, a margen é um elemento fora do elemento
+    ou seja, um espaçamento*/
+}
+ul li{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    background-color: #f8c057;
+    color: white;
+    cursor: pointer;
+}
+ul li:hover{
+    background-color: #f7cd81;
+}

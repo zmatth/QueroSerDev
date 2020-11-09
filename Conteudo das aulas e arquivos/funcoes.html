@@ -1,0 +1,20 @@
+<script>
+
+	function pulaLinha()
+	{
+		document.write("<br>");
+	}
+	function calculaAnoNascimento(anoAtual, idade)
+	{
+		var resultado = anoAtual - idade; //variavel encarregada do calculo de ano de nascimento baseada no ano atual e idade
+		return resultado;
+	}
+
+var ano = 2020;
+var idadeCosta = 23;
+var anoNascimentoCosta = calculaAnoNascimento(ano, idadeCosta);
+
+//document.write("o ano de nascimento do costa e : " + (calculaAnoNascimento(ano, idadeCosta)));
+document.write("o ano de nascimento do costa e : " + anoNascimentoCosta);
+
+</script>

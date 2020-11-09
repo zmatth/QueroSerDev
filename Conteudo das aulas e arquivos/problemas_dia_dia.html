@@ -1,0 +1,37 @@
+<script>
+	function pulaLinha() 
+	{
+        document.write("<br>");
+    }
+	function mostra(frase) 
+	{
+		document.write(frase);
+        pulaLinha();
+     }
+	 
+	 function calculaIMC (peso, altura)
+	 {
+	 return peso/(altura*altura);
+	 }
+	 
+	 var peso = 85;
+	 var altura = 1.88;
+	 var imc = 0; //peso / (altura*altura)
+	 
+	 var limiteMagreza = 18.5;
+	 var limiteObesidade = 35;
+	 var percentMagreza;
+	 var percentObesidade;
+	 
+	 imc = calculaIMC(peso , altura);
+	 
+	 mostra("meu IMC = " + imc);
+	 mostra("limite magreza e : " + (imc - limiteMagreza));
+	 mostra("limite magreza em % : " + (((imc / limiteMagreza) - 1 ) *100));
+	 
+	 
+	 
+	 
+	 mostra("limite obesidade e : " + (limiteObesidade - imc));
+	 
+</script>

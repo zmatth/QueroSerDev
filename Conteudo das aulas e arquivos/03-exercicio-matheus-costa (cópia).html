@@ -1,0 +1,36 @@
+<h3>Alcool ou Gasolina?</h3>
+<script>
+	var litrosTanqueCarro = 40; // Capacidade do tanque
+	var caminhoComGasolina = 480; // caminho percorrido
+	var consumoDeGasolina;
+	
+	document.write("Seu carro tem um tanque de 40 litros. Com gasolina, e usando todo o tanque, você fez um caminhoComGasolina de 480 quilômetros.<br>	 Qual é o consumoDeGasolina? Para calculá-lo, divida a distância percorrida pela quantidade de litros gastos. Imprima esse valor, organizando suas contas em variáveis.");
+	
+	consumoDeGasolina = (caminhoComGasolina/litrosTanqueCarro);
+	document.write("<br>");
+	document.write(" o consumo de gasolina por km e : " + consumoDeGasolina + " litros");
+	document.write("<br>");	
+	
+	var litrosAlcoolCarro = 40; // Capacidade do tanque
+	var caminhoComAlcool = 300; // caminho percorrido
+	var consumoAlcool;
+	
+	consumoAlcool = (caminhoComAlcool/litrosAlcoolCarro);
+	document.write("<br> Já com álcool, o mesmo tanque de 40 litros fez um caminhoComAlcool de 300 quilômetros. Qual é o consumoDeAlcool?");
+	document.write("<br> o consumo de alcool por km  e: " + consumoAlcool);
+	
+	document.write("<br> ou pra arrendondar " + Math.round(consumoAlcool));
+	
+	document.write("<br> (5) <br>");
+	var quebrado = 0.314178473;
+	document.write("o numero " + quebrado + " arredondado em 2 casas fica " + quebrado.toFixed(2));
+	
+	document.write("<br> (6) desafio <br>");
+	var precoDaGasolina = 4.558;
+	var precoAlcool = 3.053;
+	var precoPorKilometroAlcool = (precoAlcool/consumoAlcool);
+	var precoPorKilometroGasolina = (precoDaGasolina/consumoDeGasolina);
+	document.write("o preco por kilometro de gasolina e : " + precoPorKilometroAlcool.toFixed(2));
+	document.write("<br>enquanto o preco do alcool por kilometro e : " + precoPorKilometroGasolina.toFixed(2));
+
+	</script>

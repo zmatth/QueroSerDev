@@ -1,0 +1,14 @@
+Conteudo programatico de DEVS
+PHP
+
+Nivelamento 40horas
+HTML e CSS 32 horas
+Javascript 40 horas
+Git 4 horas
+Metodologia agil 4 horas
+Banco de Dados 32 horas
+POO 40 horas
+PHP 40 horas
+Laravel 40 horas
+React 40 horas
+Projeto Integrador 'durante o treinamento'

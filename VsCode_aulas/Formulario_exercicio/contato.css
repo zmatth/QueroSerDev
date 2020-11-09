@@ -1,0 +1,10 @@
+input:focus{
+    background-color: lightgreen;
+}
+textarea{
+    resize: vertical;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}

@@ -1,0 +1,36 @@
+herança:
+um médico é um funcionario
+
+associação:
+um médico TEM um endereço
+
+na parte do é, liga-se herança
+na parte do tem, a classe só tem algo de outra classe
+e não tudo como se teria numa herança.
+
+interface/abstrata
+ambas não tem algo estabelecido
+como os metodos
+
+
+
+
+modificadores de acesso:
+privado: ( - )
+
+É a mais restritiva, só pode ser manipulado dentro no local da sua definição.
+Um atributo privado não terá acesso na sua subclasse diretamente.
+
+protegido: ( # )
+intermedio do privado e publico
+atrib/metod só podem ser acessados dentro da propria classe ou dentro das subclasses que herdam, nada mais nada menos.
+
+publico: ( + )
+
+É o menos restritivo, o publico permite acesso para qualquer classe
+
+
+combinado: pros diagramas, todos os atb privados
+e um get/set pra cada atb (metd publico)
+
+na avaliação não precisa colocar.

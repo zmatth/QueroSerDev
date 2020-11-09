@@ -1,0 +1,89 @@
+*{
+    color: #fff;
+}
+
+.destaque{
+    background-color: white;
+    color: #3a3838cc;
+    font-size: 22px;
+}
+
+body{
+    background-attachment: fixed;
+    background-image: url(../images/double-bubble-dark.png);
+    font-family: sans-serif;
+    line-height: 23px;
+}
+#quick_menu{
+    color: blue;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    font-style: italic;
+}
+mark{
+    background-color: #3a3838cc;
+}
+#volta_topo_index{
+    text-align: right;
+}
+h2{
+    color: blue;
+    text-align: justify;
+    font-size: 14px;
+    font-style: none;
+    text-decoration: underline;
+}
+header, section, article, footer{
+width: 960px;
+padding: 30px;
+border-style: dashed;
+border-width: 5px;
+vertical-align: middle;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 150px;
+margin-right: 150px;
+display: inline-block;
+box-sizing: border-box;
+}
+
+#passatempo{
+    width: 960px;
+    padding: 30px;
+    border-style: dashed;
+    border-width: 5px;
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.img_passatemp{
+    border-style: dashed;
+    border-width: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.media_passatempo{
+    border-style: dashed;
+    border-width: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#voltar_home_passatempos {
+    text-decoration: none;
+    color: red;
+}
+#voltar_home_passatempos:hover {
+    color: #fff;
+}
+audio{
+    padding: 10px;
+}

@@ -1,0 +1,22 @@
+<script>
+
+function fatorial(numFat){
+calculoFatorial=0;
+
+for(var mult = (numFat-1); mult>0;mult--){
+calculoFatorial += (numFat*mult);
+}
+
+
+
+return calculoFatorial;
+}
+
+
+
+var mostra = fatorial(4);
+document.write(mostra);
+
+//com 4 foi, mas acima do numero 4 não faz oq eu pensei
+
+</script>

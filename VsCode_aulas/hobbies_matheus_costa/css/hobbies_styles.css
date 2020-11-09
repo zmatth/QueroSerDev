@@ -1,0 +1,24 @@
+#a,#b,#c,#d{
+    background-color: lightblue;
+    border-style: dotted;
+    border-width: 5px;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+    overflow: auto;
+    font-size: 22px;
+}
+#a,#d{
+    width: 965px;
+    margin-bottom: 5px;
+}
+#b{
+    width: 300px;
+    display: inline-block;
+    height: 400px;
+}
+#c{
+    width: 660px;
+    display: inline-block;
+    height: 400px;
+}

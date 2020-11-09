@@ -1,0 +1,30 @@
+<script>
+		function calculaDiasDeVida(idade, dias)
+		{
+		dias = 365;
+		var resultDiasVida = idade*dias;
+		return resultDiasVida; 
+		}
+
+		function calculaBatimentos(dias, calcBatimentos)
+		{
+			const HORAS_DIA = 24;
+			const MINUTOS_HORA = 60;
+			const BATIMENTOS_MINUTO = 80;
+			var calcBatimentos = (dias*(HORAS_DIA*MINUTOS_HORA*BATIMENTOS_MINUTO));
+			return calcBatimentos;
+		}
+		
+			
+		var idade = prompt("Quantos anos você tem?");
+        //var dias = calculaDiasDeVida(idade);
+        //var batimentos = calculaBatimentos(dias);
+		
+		document.write("anos de idade: "+idade);
+		document.write("<br> ");
+        document.write("Você já viveu " + calculaDiasDeVida(idade) + " dias de vida");
+        document.write("<br>");
+		// desafio
+        document.write("Seu coração já bateu " + calculaBatimentos(calculaDiasDeVida(idade)) + " vezes. Haja coração!");
+		document.write("<br>"+Date());		
+</script>

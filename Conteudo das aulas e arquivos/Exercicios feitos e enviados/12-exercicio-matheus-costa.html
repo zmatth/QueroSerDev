@@ -1,0 +1,22 @@
+<script>
+
+function pulaLinha() {
+    document.write("<br>");
+}
+function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+}
+
+var tabuadaUser = parseInt(prompt ("Qual a tabuada que vc quer executar"));
+var multiplicador = 1;
+var result = 0;
+
+
+while (multiplicador <= 9 ){
+multiplicador = multiplicador + 1;
+result = (tabuadaUser * multiplicador);
+mostra(tabuadaUser +" vezes "+multiplicador +" e: "+result);
+}
+
+</script>

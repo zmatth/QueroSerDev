@@ -1,0 +1,16 @@
+Scholar?
+Data Science?
+Autodefesa
+
+<html>
+<head></head>
+<body></body>
+</html>
+
+<script><\script> javascrip
+<h3></h3> paragrafo html
+alert ("texto"); = função do javascrip para popup de mensagem
+Strong?
+
+f12 console no navegador pra encontrar ou identificar o erro no html ou codigo
+

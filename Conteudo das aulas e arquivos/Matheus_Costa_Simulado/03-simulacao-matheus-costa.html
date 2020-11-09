@@ -1,0 +1,22 @@
+<script>
+
+function numerosMultiplos(multiplicador,inicio,fim){
+	var resultado = [ ];
+		for (i = inicio; i<=fim; i++){
+			
+			resultado.push(multiplicador * i);
+			
+		}
+			document.write(resultado);
+	}
+			
+
+var multiplicador  = parseInt(prompt("Quer calcular qual tabuada?"));
+var inicio = parseInt(prompt("a partir de qual numero quer mulplicar?"));
+var fim = parseInt(prompt("ate que numero quer multiplicar?"));
+
+numerosMultiplos(multiplicador,inicio,fim);
+
+
+
+</script>

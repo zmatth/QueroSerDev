@@ -1,0 +1,23 @@
+<script>
+var numeros = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ];
+var numPar = 0;
+var numImpar = 0;
+
+function calculaParImpar(numeros){
+
+for (var ind = 0; ind < numeros.length; ind++){
+		
+		if((numeros[ind]%2) == 0){
+		numPar ++;
+		} 
+		else{
+		numImpar ++;		}
+}
+return;
+}
+
+calculaParImpar(numeros);
+document.write("No array temos "+numPar+ " numeros pares");
+document.write("<br>");
+document.write("No array temos "+numImpar+ " numeros impares");
+</script>

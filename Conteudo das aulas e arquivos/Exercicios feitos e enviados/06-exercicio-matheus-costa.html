@@ -1,0 +1,28 @@
+<script>
+	function pulaLinha() 
+	{
+            document.write("<br>");
+    }
+    function mostra(frase)
+	{
+        document.write(frase);
+        pulaLinha();
+     }
+     function calculaIMC(peso, altura)
+	 {
+         var imc = peso / (altura * altura);
+         return imc;
+     }
+	 
+	 var nomeDoUsuario = prompt("Bom Dia! Qual o seu nome?");
+	 var alturaDoUsuario = prompt("E qual é a sua altura?");
+     var pesoDoUsuario = prompt("E o seu peso?");
+	 var imcDoUsuario = calculaIMC(pesoDoUsuario , alturaDoUsuario);
+	 
+     mostra("Olá " + nomeDoUsuario);
+     mostra("O seu imc é " + imcDoUsuario);
+	 
+	 mostra("Como a variavel aceita o valor como texto ele exibe o texto");
+	 mostra("Mas quando se usa ' , ' acaba retornando um ' NaN ' ");
+	 
+	</script>

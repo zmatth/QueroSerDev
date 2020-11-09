@@ -1,0 +1,17 @@
+composição:
+
+quando a classe só existe se uma outra classe existir
+
+linha com quadradro preto
+
+agregação:
+
+existe sem precisar de outra classe
+
+linha com quadrado branco
+
+
+comportamental (method):
+Quando existe uma dependencia com o comportamento (method)
+Quando um objeto é passado como parametro para um method
+Dependecia : seta pontilhada

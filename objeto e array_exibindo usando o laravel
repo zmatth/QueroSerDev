@@ -1,0 +1,34 @@
+Tratando como array:
+
+ $produtos = [
+            ['produto' => 'Vinho','ml'=>'600ml'],
+            ['produto' => 'Wisky','ml'=>'500ml'],
+            ['produto' => 'Champagne','ml'=>'700ml']
+        ];
+        return view('Produto.index', compact('produtos'));
+
+@foreach($produtos as $produto)
+
+<p>{{ $produto['produto'] }}</p>
+<p>{{ $produto['ml'] }}</p>
+
+@endforeach
+
+---tratando como objeto-----
+
+ $produtos = [
+            (object)['produto' => 'Vinho','ml'=>'600ml'],
+            (object)['produto' => 'Wisky','ml'=>'500ml'],
+            (object)['produto' => 'Champagne','ml'=>'700ml']
+        ];
+        return view('Produto.index', compact('produtos'));
+
+
+
+
+@foreach($produtos as $produto)
+{{-- tratando como objeto --}}
+<p>{{ $produto->produto }}</p>
+<p>{{ $produto->ml }}</p>
+
+@endforeach

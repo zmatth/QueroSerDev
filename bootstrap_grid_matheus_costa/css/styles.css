@@ -1,0 +1,84 @@
+body{
+    /* background-image: url(https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max); */
+    background-image: url(https://i.pinimg.com/originals/08/d0/f8/08d0f81195f6bb31ac8e5c6d72b17de6.jpg);
+    /* background-color: black; */
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    text-align: center;
+}
+.Topo{
+    padding: 0;
+}
+.Cabecalho{
+    margin-top: 10px;
+    background-image: linear-gradient(black,#4B3816);
+    color: white;
+    text-align: center;
+}
+
+.Cabecalho:hover{
+    background-image: linear-gradient(#4B3816,black);
+    color: white;
+}
+
+.Marcas{
+    /* background-color: #B9AA93; */
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    height: 250px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a img {
+    padding-top: 10px;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.linkedin::before {
+    content: '';
+    background-image: url(../images/linkedin.png);
+    background-size: 18px 18px;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin: 0px -22px;
+}
+.instagram::after{
+    content: '';
+    background-image: url(../images/insta.png);
+    background-size: 18px 18px;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin: 0px 3px;
+
+}
+.facebook::before{
+    content: '';
+    background-image: url(../images/facebook.png);
+    background-size: 18px 18px;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin: 0px -22px;
+}
+.twitter::after{
+    content: '';
+    background-image: url(../images/twitter.png);
+    background-size: 18px 18px;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin: 0px 5px;
+}

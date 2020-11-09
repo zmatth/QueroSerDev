@@ -1,0 +1,20 @@
+ <script>
+        function pulaLinha() {
+            document.write("<br><hr><br>");
+           //document.write("br");
+        }
+        function mostra(frase) {
+            //document.write(frase);
+           document.write("<big>", frase,"</big>");
+           //document.write(frase.big());
+            pulaLinha();
+        }
+        var ano = 2020;
+        mostra("Eu nasci em : " + (ano - 21));
+        mostra("Jonas nasceu em : " + (ano - 22));
+        mostra("Fabio nasceu em : " + (ano - 36));
+		
+		mostra("quando eu tiro o function aparece <br> 04-exercicio-matheus-costa.html:2 Uncaught SyntaxError: Unexpected token ");
+		mostra("quando eu tiro as () aparece <br> 04-exercicio-matheus-costa.html:2 Uncaught SyntaxError: Unexpected token ' ");
+		mostra("ou seja, acaba dando erro de sintaxe por faltar alguns criterios da linguagem ");
+</script>

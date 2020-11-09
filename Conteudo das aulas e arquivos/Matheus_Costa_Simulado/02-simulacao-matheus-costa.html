@@ -1,0 +1,24 @@
+<script>
+
+function somarNumeros(num1, num2){
+	
+	var mantem = num1;
+	var somaTudo= 0;
+
+	for(var cont = num1; cont<=num2; cont++){
+		var somaTudo = somaTudo + mantem;
+		if(cont == num2){
+		document.write("A soma total dos numeros entre " + num1 +  " e " + num2 + " eh: "+ somaTudo);
+		}else{
+		mantem ++;
+		}
+	}
+
+}
+
+var numeroIn = parseInt(prompt("Inicio"));
+var numeroFin = parseInt(prompt("Fim"));
+
+somarNumeros(numeroIn,numeroFin);
+
+</script>

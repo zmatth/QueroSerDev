@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icone::before {
+    content: "";
+    background-image: url('../images/header/css_sprites.png');
+    position: absolute;
+}
+
+/*---begin header---*/
+header {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .logo::before {
+    width: 151px; 
+    height: 55px;
+    background-position: -10px -10px;
+    margin-top: -28px;
+}
+
+.search input {
+    height: 25px;
+    padding-left: 5px;
+}
+.search button {
+    background-color: #006172;
+    color: #fff;
+    border: none;
+    height: 31px;
+    cursor: pointer; 
+}
+
+.search button:hover {
+    background-color: #09859a;
+}
+
+.login a {
+    color: #8d8178;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login::before {
+    width: 24px; 
+    height: 24px;
+    background-position: -181px -10px;
+    margin-left: -25px;
+    margin-top: -4px;
+} 
+
+
+ .cart {
+    background-color: #006172;
+    width: 110px;
+    padding: 5px;
+    text-align: right;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.cart::before {
+    width: 64px; 
+    height: 64px;
+    background-position: -94px -85px;
+    margin-left: -110px;
+    margin-top: -14px;
+}
+
+.cart span {
+    position: relative;
+    top: -7px;
+    right: 13px;
+}
+
+.cart img {
+    width: 30px;
+}
+
+/*---end header---*/
+
+/*---begin nav---*/
+nav {
+    background-color: #006172;
+    color: #fff;
+    text-align: center;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav li:hover {
+    background-color: #09859a;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px 50px;
+}
+
+/*---reponsive nav---*/
+@media screen and (max-width: 768px) {
+
+    .column-mobile {
+        flex-direction: column;
+    }
+
+    header div {
+        margin: 5px 0;
+    }
+    
+}
+/*---end nav---*/

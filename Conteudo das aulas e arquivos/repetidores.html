@@ -1,0 +1,28 @@
+<script>
+        function pulaLinha() {
+            document.write("<br>");
+        }
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+        var anoDeCopa = 1930;
+        var anoDadoUser = prompt("Até que ano você quer saber se tera copa?");
+        //while (anoDeCopa <= 2014) {   
+        //while (anoDeCopa <= 2100) {  (1)
+        //while (anoDeCopa <= 100000) { (2)
+		
+		
+        //while (anoDeCopa <= 2100) {
+        while (anoDeCopa <= anoDadoUser) {
+            mostra(anoDeCopa + " tem copa!");
+            anoDeCopa = anoDeCopa + 4;
+        }
+        mostra("Ufa! Esses foram os anos de copa até: " + anoDadoUser);
+		
+		var copasPassadas = prompt("E de tras pra frente até 100? ");
+		while(anoDeCopa > copasPassadas){
+		mostra(anoDeCopa + "teve copa");
+		anoDeCopa = anoDeCopa - 4;
+		}
+</script>

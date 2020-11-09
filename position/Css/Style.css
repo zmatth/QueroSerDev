@@ -1,0 +1,19 @@
+#container{
+    background-color: lightcyan;
+    height: 960px;
+    width: auto;
+    text-align: center;
+}
+.Produtos{
+    height: 300px;
+    width: 300px;
+    margin: 10px auto;
+    background-color: #fff;
+
+}
+div #linha1{
+    position: absolute;
+    right: 0;
+}
+div #linha2{}
+div #linha3{}

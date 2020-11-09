@@ -1,0 +1,64 @@
+header{
+    background-image: url(../Images/dark_stripes.png);
+    background-attachment: fixed;
+    font-size: 18px;
+    border-style: solid;
+    border-color: black;
+    width: 150px;
+    height: 200px;
+    padding: 15px 20px;
+    margin: 50px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+div{
+    margin: 15px;
+}
+div a{
+    background-color: rgba(0, 128, 128, 0);
+    color:white;
+    font-style: italic;
+    text-decoration: overline underline;
+}
+
+.linkedin::before {
+    content: '';
+    background-image: url(../Images/linkedin.png);
+    background-size: 18px 18px;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin: 0px -22px;
+}
+.instagram::after{
+    content: '';
+    background-image: url(../Images/insta.png);
+    background-size: 18px 18px;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin: 0px 3px;
+
+}
+.facebook::before{
+    content: '';
+    background-image: url(../Images/facebook.png);
+    background-size: 18px 18px;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin: 0px -22px;
+}
+.twitter::after{
+    content: '';
+    background-image: url(../Images/twitter.png);
+    background-size: 18px 18px;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    margin: 0px 5px;
+}

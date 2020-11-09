@@ -1,0 +1,35 @@
+<script>
+
+	function pulaLinha() 
+	{
+        document.write("<br>");
+    }
+	function mostra(frase) 
+	{
+		document.write(frase);
+        pulaLinha();
+     }
+	 
+	 function calculaIMC (peso, altura)
+	 {
+	 return peso/(altura*altura);
+	 }
+	 
+	 var nome = prompt("Qual o seu nome?");
+	 var peso = prompt("E qual e o seu peso?");
+	 var altura = prompt("E a sua altura?");
+	 
+	 var imc = calculaIMC(peso, altura);
+	 
+	 const LIMITE_MAGREZA = 18.5;
+	 const LIMITE_OBESIDADE = 35;
+	 
+	 var distMagreza = (imc - LIMITE_MAGREZA);
+	 var distObesidade = (imc - LIMITE_OBESIDADE);
+	 
+	 mostra(nome + " seu imc e: "+imc.toFixed(1));
+	 pulaLinha();
+	 
+		 
+	 
+</script>

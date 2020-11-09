@@ -1,0 +1,20 @@
+<script>
+
+function numerosMultiplos(multiplicador, inicio, fim){
+var array = [];
+for(var i = inicio; i<=fim; i++){
+	if(i%multiplicador == 0){
+		array.push(i);
+	}
+}
+return array;
+
+}
+
+//numerosMultiplos(3,1,30);
+
+var resultado = numerosMultiplos(3,1,30);
+
+document.write(resultado);
+
+</script>

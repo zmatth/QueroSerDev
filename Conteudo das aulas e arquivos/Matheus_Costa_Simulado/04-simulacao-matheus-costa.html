@@ -1,0 +1,26 @@
+<script>
+
+function fibonacci(entrada){
+var array = [ ];
+	for(var contador = 0; contador<=entrada; contador++){
+		if(contador == 0){
+			array[contador] = 0;			
+		}
+		if (contador == 1){
+			array[contador] = 1;
+		}
+		else{
+		array.push((array[contador-2]+array[contador-1]));
+		}
+		document.write(array[contador]+" ");
+		
+	}
+
+
+}
+
+var entrada = parseInt(prompt("Qual a posição de Fibonacci que você deseja ver?"));
+
+fibonacci(entrada);
+
+</script>

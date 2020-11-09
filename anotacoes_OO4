@@ -1,0 +1,13 @@
+upcast
+conversão de um obj de subclasse
+para obj de superclasse, não mudando a
+essencia e sim somente o tipo
+
+mudando o modo de tratamento e não alterando a essencia.
+
+o upcast pode evitar bastante redundancia dependendo da forma que é usado (lembra da folha de pag que o ivo exemplificou).
+
+
+downcast:
+
+o contrario do upcast, porém, temos que saber o que exatamente estamos "descendo" para que não tenha um erro de cast, se fizer o up, fazer o down pro mesmo local de origem.

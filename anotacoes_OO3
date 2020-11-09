@@ -1,0 +1,19 @@
+Herança:
+relação entre classes
+onde a classe filha/sub classe
+existe como uma extensão da classe
+mãe e reaproveita todos os atributos
+fornecidos da classe mãe
+
+
+Classe abstrata:
+não pode ser instanciada
+serve somente como um conceito genérico
+e incompleto.
+
+classe concreta:
+contrario das abstratas, representa conceito especifico e devem ser instanciadas
+
+se eu declarar um metodo como abstrato
+automaticamente a classe tem que ser
+abstrata. porém, se a classe for abstrata não implica em ter um método/atributo concreto.
